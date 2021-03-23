@@ -31,13 +31,9 @@ h3 {
     padding: 0 0.75rem;
 }
 
-p {
-    margin-bottom: 1.5rem;
-}
-
 /******** form section ********/
 section {
-    margin: 5rem;
+    margin: auto;
     padding: 1rem;
     background-color: rgba(13, 18, 56, 0.7);
 }
@@ -99,6 +95,10 @@ fieldset > div > input[type=submit]:hover {
 fieldset a {
     color: var(--lg-green);
     text-decoration: none;
+}
+
+.ck-box {
+    margin-bottom: 1.5rem;
 }
 
 fieldset a:hover {
